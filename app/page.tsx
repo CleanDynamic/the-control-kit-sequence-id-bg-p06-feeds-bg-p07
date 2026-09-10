@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { Kit } from '@/components/kit/kit'
 
 export default function Page() {
@@ -10,16 +9,7 @@ export default function Page() {
         style={{ borderBottom: '1px solid var(--line)' }}
       >
         <div className="mx-auto max-w-2xl px-5 pt-10 md:px-8 md:pt-14">
-          <div className="flex items-center justify-between">
-            <span className="eyebrow">buildgallery.ai</span>
-            <Link
-              href="/card"
-              className="mono text-[13px] underline-offset-4 hover:underline"
-              style={{ color: 'var(--text2)' }}
-            >
-              build card →
-            </Link>
-          </div>
+          <span className="eyebrow">buildgallery.ai</span>
           <h1
             className="text-balance"
             style={{
